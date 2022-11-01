@@ -1,0 +1,10 @@
+function functionName() {
+  console.log("Hello world");
+}
+
+function reusableFunction() {
+  console.log("Hi World");
+}
+
+functionName();
+reusableFunction();
