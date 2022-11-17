@@ -1,0 +1,21 @@
+function testLogicalOr(val) {
+  // Only change code below this line
+
+  if (val == 10 || val == 20 || val > 10 && val < 20) {
+    return "Inside";
+  }
+
+  // Only change code above this line
+  return "Outside";
+}
+
+testLogicalOr(15);
+
+console.log(testLogicalOr(15));
+
+// The logical or operator (||) returns true if either of the operands is true. Otherwise, it returns false.
+
+// The logical or operator is composed of two pipe symbols: (||). This can typically be found between your Backspace and Enter keys.
+
+// If we want to find a value between 2( here 10 and 20 inclusive) numbers the && operator is a must or else all conditions used to test values above 20 and below 10 wont satisfy .
+// But if we use && operator we wont be using the || operator which must be used at least once in this exercise.
